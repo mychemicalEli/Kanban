@@ -1,0 +1,29 @@
+@use '../utilities/variables' as vars;
+
+.tag {
+    display: inline-block;
+    padding: 5px;
+
+    i {
+        border-radius: 50%;
+        padding: 5px;
+        color: white;
+    }
+
+    &.front i {
+        background-color: vars.$bg-green;
+    }
+
+    &.back i {
+        background-color: vars.$bg-red;
+    }
+
+    &.device i {
+        background-color: vars.$bg-yellow;
+    }
+
+    &.close {
+        float: right;
+        color: vars.$bg-red;
+    }
+}

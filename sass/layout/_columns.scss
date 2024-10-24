@@ -1,0 +1,17 @@
+@use '../utilities/variables' as vars;
+
+.column {
+    background-color: vars.$bg-column;
+    box-shadow: vars.$box-shadow;
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    
+        h2 {
+        font-size: 20px;
+        font-weight: 500;
+     }
+}

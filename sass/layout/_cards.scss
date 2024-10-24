@@ -1,0 +1,29 @@
+@use '../utilities/variables' as vars;
+
+.card {
+    background-color: white ;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: vars.$box-shadow;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+        background-color: vars.$bg-hover;
+        color: white;
+        box-shadow: vars.$box-shadow-hover;
+        cursor: pointer;
+
+        i {
+            color: vars.$tag-hover;
+        }
+
+        .tags .tag i {
+            color: vars.$tag-hover;
+        }
+    }
+
+    h3, p {
+        font-size: 15px;
+    }
+}

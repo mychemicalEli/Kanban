@@ -14,8 +14,8 @@
         box-shadow: vars.$box-shadow-hover;
         cursor: pointer;
 
-        i {
-            color: vars.$tag-hover;
+        .tag.close i {
+            color: vars.$tag-hover; 
         }
 
         .tags .tag i {

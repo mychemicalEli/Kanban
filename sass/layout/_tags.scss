@@ -24,6 +24,10 @@
 
     &.close {
         float: right;
-        color: vars.$bg-red;
+
+        i {
+            color: vars.$bg-red; 
+        }
+        
     }
 }
